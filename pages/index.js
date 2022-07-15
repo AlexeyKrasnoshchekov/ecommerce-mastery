@@ -51,7 +51,7 @@ export async function getServerSideProps(context) {
 
   if (!post) {
     return {
-      notFound: true,
+      notFound: true
     };
   } else {
     return {
